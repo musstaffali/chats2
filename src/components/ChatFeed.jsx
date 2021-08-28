@@ -1,4 +1,6 @@
 import MessageForm from './MessageForm';
+import MyMessage from './MessageForm';
+import TheirMessage from './TheirMessage';
 
 const ChatFeed = (props) => {
     console.log(props);
