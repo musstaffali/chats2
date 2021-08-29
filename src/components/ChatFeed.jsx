@@ -24,6 +24,9 @@ const ChatFeed = (props) => {
                            : <TheirMessage />
                        }
                    </div>
+                   <div className="read-receipts" style={{ marginRight: isMyMessage ? '10px' : '0px', marginLeft: isMyMessage ? '0px' : '68px'}}>
+                       read-receipts
+                   </div>
                </div>
            )
        })
